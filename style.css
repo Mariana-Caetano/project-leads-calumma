@@ -1,4 +1,5 @@
 * {
+    font-size: 16px;
     margin: 0;
     box-sizing: border-box;
     font-family: 'SF Pro Display', sans-serif;
@@ -28,31 +29,20 @@ body {
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    height: 100%;
+    height: 100vh;
 }
 
-h1 {
-    font-family: SF Pro Display;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 64px;
-    line-height: 76px;
-    text-align: center;
-    margin-bottom: 24px;
-}
-
-h2 {
+h3 {
     font-family: SF Pro Display;
     font-style: normal;
     font-weight: normal;
-    font-size: 40px;
-    line-height: 48px;
     text-align: center;
     margin-bottom: 52px;
 }
 
 h1,
 h2,
+h3,
 button {
     color: #fff;
 }
@@ -121,9 +111,123 @@ button>span>i {
     color: #ED361D;
 }
 
-form {
+.form {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+.form2 {
+    align-items: center;
+    justify-content: center;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin-bottom: 60px;
+}
+
+.img-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 524px;
+    height: 280px;
+    background: #fbfbfb;
+    box-shadow: 0px 4px 8px rgba(50, 50, 71, 0.06), 0px 4px 4px rgba(0, 0, 0, 0.08);
+}
+
+.txt-info {
+    max-width: 524px;
+    font-family: SF Pro Text;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 22px;
+    color: #000000;
+}
+
+.txt-info>span {
+    font-family: SF Pro Display;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.last-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.last-form>form>input {
+    margin-right: 18px;
+}
+
+#title {
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 4.75rem;
+    text-align: center;
+    font-size: 4rem;
+    max-width: 620px;
+    margin-bottom: 24px;
+}
+
+#subtitle {
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 3rem;
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+@media(max-width:576px) {
+    #title,
+    .header-text {
+        font-size: 3rem;
+        margin-bottom: 12px;
+        line-height: 3rem;
+    }
+    #subtitle {
+        margin-bottom: 24px;
+        line-height: 2.25rem;
+    }
+    .info {
+        flex-direction: column;
+        padding: 15px;
+    }
+    .img-info {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    input {
+        width: 100%;
+    }
+    .last-form>form>input {
+        margin-right: 0;
+    }
+    .form2 {
+        display: flex;
+        padding: 15px;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+    }
+    .logotipo {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .logotipo>svg {
+        margin: 0;
+        margin-top: 25px;
+    }
 }
