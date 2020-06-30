@@ -134,15 +134,15 @@ button>span>i {
 .img-info {
     display: flex;
     align-items: center;
-    justify-content: center;
-    width: 524px;
+    justify-content: space-around;
+    max-width: 524px;
     height: 280px;
     background: #fbfbfb;
     box-shadow: 0px 4px 8px rgba(50, 50, 71, 0.06), 0px 4px 4px rgba(0, 0, 0, 0.08);
 }
 
 .txt-info {
-    max-width: 524px;
+    max-width: 523px;
     font-family: SF Pro Text;
     font-style: normal;
     font-weight: normal;
