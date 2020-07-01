@@ -88,7 +88,7 @@ a {
 .call-action {
     margin: 0;
     background: #ED361D;
-    border-radius: 10px;
+    border-radius: 25px;
     width: 189x;
     height: 47px;
     border: none;
@@ -271,7 +271,6 @@ button>span>i {
         padding: 18px;
         align-items: center;
         justify-content: center;
-        flex-direction: row;
         width: 100%;
     }
     .logotipo {
