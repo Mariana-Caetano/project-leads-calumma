@@ -53,7 +53,7 @@ input {
     height: 47px;
     background: #F3F3F3;
     border-radius: 25px;
-    padding: 14px 34px;
+    padding: 14px 14px;
     outline: 0;
     border: none;
     font-size: 16px;
@@ -268,8 +268,7 @@ button>span>i {
     }
     .form2 {
         display: flex;
-        padding-right: 18px;
-        padding-left: 18px;
+        padding: 18px;
         align-items: center;
         justify-content: center;
         flex-direction: row;
