@@ -33,9 +33,9 @@ body {
 }
 
 h3 {
-    font-family: SF Pro Display;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
-    font-weight: normal;
+    font-weight: 900;
     text-align: center;
     margin-bottom: 52px;
 }
@@ -180,7 +180,7 @@ button>span>i {
 }
 
 .txt-info>span {
-    font-family: SF Pro Display;
+    font-family: 'Roboto', sans-serif;
     display: block;
     margin-bottom: 5px;
 }
