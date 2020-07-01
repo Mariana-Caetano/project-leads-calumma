@@ -61,13 +61,13 @@ input {
 
 input[type=submit] {
     margin: 0;
-    background: #ED361D;
+    background: #24D8EC;
     border-radius: 25px;
     width: 300px;
     height: 47px;
     border: none;
     font-size: 16px;
-    color: #fff;
+    color: black;
 }
 
 a {
