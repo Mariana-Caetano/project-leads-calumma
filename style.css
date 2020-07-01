@@ -220,7 +220,7 @@ button>span>i {
 }
 
 #title {
-    font-family: SF Pro Display;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: bold;
     line-height: 4.75rem;
@@ -268,7 +268,7 @@ button>span>i {
     }
     .form2 {
         display: flex;
-        padding: 60px;
+        padding: 18px;
         align-items: center;
         justify-content: center;
         flex-direction: row;
