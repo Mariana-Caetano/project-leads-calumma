@@ -88,7 +88,7 @@ a {
 .call-action {
     margin: 0;
     background: #ED361D;
-    border-radius: 60px;
+    border-radius: 25px;
     width: 189x;
     height: 47px;
     border: none;
@@ -268,7 +268,7 @@ button>span>i {
     }
     .form2 {
         display: flex;
-        padding: 18px;
+        padding: 50px;
         align-items: center;
         justify-content: center;
         flex-direction: row;
