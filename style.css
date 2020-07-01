@@ -285,7 +285,7 @@ button>span>i {
         margin-top: 25px;
     }
     @media (max-width: 600px) {
-        .body-index, .main, .lower, .content {
+        .body-index, .main, .lower, .content, .logotipo, .call-action {
         width: 100%;
        }
     }
