@@ -213,7 +213,10 @@ button>span>i {
     margin-bottom: 48px;
 }
 
-@media only screen and (max-device-width: 900px) {
+@media only screen and (max-device-width: 900px){
+    /* .menu { width:100%; } */
+    }
+{
     #title,
     .header-text {
         font-size: 3rem;
