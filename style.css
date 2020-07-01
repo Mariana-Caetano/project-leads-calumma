@@ -139,7 +139,7 @@ button>span>i {
 
 .form {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
@@ -210,6 +210,7 @@ button>span>i {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: row;
 }
 
 .last-form>form>input {
