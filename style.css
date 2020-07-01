@@ -18,7 +18,7 @@ body {
     background: url(./assets/bg.png) no-repeat center fixed;
     background-size: cover;
 }
-
+ 
 .main,
 .lower {
     height: 100%;
@@ -242,7 +242,6 @@ button>span>i {
     margin-bottom: 48px;
 }
 
-@media (min-width:300px) and (max-width:1023px) {
     #title,
     .header-text {
         font-size: 3rem;
@@ -285,4 +284,8 @@ button>span>i {
         margin: 0;
         margin-top: 25px;
     }
-}
+    @media (max-width: 600px) {
+        .body-index, .main, .lower, .content {
+        width: 100%;
+       }
+    }
