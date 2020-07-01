@@ -93,6 +93,7 @@ a {
     height: 47px;
     border: none;
     font-size: 16px;
+    font-weight: bold;
     cursor: pointer;
 }
 
@@ -195,7 +196,7 @@ button>span>i {
     max-width: 380px;
     height: 265px;
     padding-left: 50px;
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: normal;
     line-height: 32px;
