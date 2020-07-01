@@ -93,6 +93,7 @@ a {
     height: 47px;
     border: none;
     font-size: 16px;
+    cursor: pointer;
 }
 
 .logotipo escuro {
