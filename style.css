@@ -140,6 +140,7 @@ button>span>i {
 .form {
     display: flex;
     flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
 }
