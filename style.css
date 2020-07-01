@@ -126,7 +126,7 @@ button>span>i {
 .info {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
     flex-direction: row;
     margin-bottom: 60px;
 }
@@ -134,15 +134,15 @@ button>span>i {
 .img-info {
     display: flex;
     align-items: center;
-    justify-content: center;
-    width: 524px;
+    justify-content: space-around;
     height: 280px;
     background: #fbfbfb;
     box-shadow: 0px 4px 8px rgba(50, 50, 71, 0.06), 0px 4px 4px rgba(0, 0, 0, 0.08);
 }
 
 .txt-info {
-    max-width: 524px;
+    max-width: 523px;
+    padding-left: 50px;
     font-family: SF Pro Text;
     font-style: normal;
     font-weight: normal;
@@ -151,6 +151,32 @@ button>span>i {
 }
 
 .txt-info>span {
+    font-family: SF Pro Display;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.img-tks {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 280px;
+    background: #fbfbfb;
+    box-shadow: 0px 4px 8px rgba(50, 50, 71, 0.06), 0px 4px 4px rgba(0, 0, 0, 0.08);
+}
+
+.txt-tks {
+    max-width: 380px;
+    height: 277px;
+    padding-left: 50px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 32px;
+    color: #000000;
+}
+
+.txt-tks>span {
     font-family: SF Pro Display;
     display: block;
     margin-bottom: 5px;
