@@ -221,8 +221,8 @@ button>span>i {
 
 #title {
     font-family: 'Roboto', sans-serif;
-    font-style: oblique;
-    font-weight: bold;
+    font-style: normal;
+    font-weight: 500;
     line-height: 4.75rem;
     text-align: center;
     font-size: 4rem;
