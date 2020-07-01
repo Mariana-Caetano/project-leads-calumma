@@ -268,7 +268,7 @@ button>span>i {
     }
     .form2 {
         display: flex;
-        padding: 50px;
+        padding: initial;
         align-items: center;
         justify-content: center;
         flex-direction: row;
