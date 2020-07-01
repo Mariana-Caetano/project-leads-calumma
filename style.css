@@ -264,6 +264,7 @@ button>span>i {
     }
     .last-form>form>input {
         margin-right: 0;
+        flex-direction: row;
     }
     .form2 {
         display: flex;
