@@ -15,10 +15,10 @@ body {
 }
 
 .body-index {
-    background: url(./assets/bg.png) no-repeat center fixed;
+    background: url(./assets/bg.jpg) no-repeat center fixed;
     background-size: cover;
 }
- 
+
 .main,
 .lower {
     height: 100%;
@@ -29,7 +29,7 @@ body {
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    height: 100vh;
+    height: 90vh;
 }
 
 h3 {
@@ -37,8 +37,9 @@ h3 {
     font-style: normal;
     font-weight: 900;
     text-align: center;
-    margin-bottom: 52px;
+    margin-bottom: 45px;
 }
+
 h4 {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
@@ -62,7 +63,7 @@ input {
     height: 47px;
     background: #F3F3F3;
     border-radius: 25px;
-    padding: 5px 5px;
+    padding: 5px 20px;
     outline: 0;
     border: none;
     font-size: 16px;
@@ -70,6 +71,7 @@ input {
 
 input[type=submit] {
     margin: 0;
+    margin-bottom: 32px;
     background: #24D8EC;
     border-radius: 25px;
     width: 300px;
@@ -90,7 +92,6 @@ a {
 
 .down {
     height: 47px;
-    /* margin-top: 50px; */
     margin: 50px 20px;
 }
 
@@ -113,19 +114,19 @@ a {
 }
 
 .logotipo escuro>svg {
-    margin-top: 37px;
+    margin-top: 40px;
     margin-left: 151px;
 }
 
 .logotipo {
-    width: 100%;
-    height: 50px;
+    width: 90%;
+    height: 10%;
     display: flex;
 }
 
 .logotipo>svg {
-    margin-top: 37px;
-    margin-left: 151px;
+    margin-top: 5%;
+    margin-left: 8%;
 }
 
 button>span {
@@ -156,23 +157,24 @@ button>span>i {
 }
 
 .form2 {
+    display: flex;
+    padding: 18px;
     align-items: center;
     justify-content: center;
- 
+    width: 100%;
 }
 
-.info {
-    display: flex;
+
+/* .info {
     align-items: center;
     justify-content: center;
-    flex-direction: row;
     margin-bottom: 60px;
+    padding: 15px;
 }
 
 .img-info {
     display: flex;
     align-items: center;
-    justify-content: space-around;
     height: 280px;
     background: #fbfbfb;
     box-shadow: 0px 4px 8px rgba(50, 50, 71, 0.06), 0px 4px 4px rgba(0, 0, 0, 0.08);
@@ -181,6 +183,34 @@ button>span>i {
 .txt-info {
     max-width: 523px;
     padding-left: 50px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 22px;
+    color: #000000;
+} */
+
+.info {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin-bottom: 30%;
+    margin: 3%;
+}
+
+.img-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 524px;
+    height: 280px;
+    background: #fbfbfb;
+    box-shadow: 0px 4px 8px rgba(50, 50, 71, 0.06), 0px 4px 4px rgba(0, 0, 0, 0.08);
+}
+
+.txt-info {
+    max-width: 524px;
     font-family: SF Pro Text;
     font-style: normal;
     font-weight: normal;
@@ -212,22 +242,10 @@ button>span>i {
     color: #000000;
 }
 
-.txt-tks>span {
-    font-family: SF Pro Display;
-    display: block;
-    margin-bottom: 5px;
-}
-
 .last-form {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: row;
-}
-
-.last-form>form>input {
-    margin-right: 18px;
-    flex-direction: row;
 }
 
 #title {
@@ -251,50 +269,30 @@ button>span>i {
     margin-bottom: 48px;
 }
 
-    #title,
-    .header-text {
-        font-size: 3rem;
-        margin-bottom: 12px;
-        line-height: 3rem;
-    }
-    #subtitle {
-        margin-bottom: 24px;
-        line-height: 2.25rem;
-    }
-    .info {
-        flex-direction: column;
-        padding: 15px;
-    }
-    .img-info {
-        width: 100%;
-        margin-bottom: 10px;
-    }
-    input {
-        width: 100%;
-    }
-    .last-form>form>input {
-        margin-right: 0;
-        flex-direction: row;
-    }
-    .form2 {
-        display: flex;
-        padding: 18px;
-        align-items: center;
-        justify-content: center;
+#title,
+.header-text {
+    font-size: 3rem;
+    margin-bottom: 12px;
+    line-height: 3rem;
+}
+
+#subtitle {
+    margin-bottom: 24px;
+    line-height: 2.25rem;
+}
+
+.last-form>form>input {
+    margin-right: 0;
+    flex-direction: row;
+}
+
+@media (max-width: 600px) {
+    .body-index,
+    .main,
+    .lower,
+    .content,
+    .logotipo,
+    .call-action {
         width: 100%;
     }
-    .logotipo {
-        width: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    .logotipo>svg {
-        margin: 0;
-        margin-top: 25px;
-    }
-    @media (max-width: 600px) {
-        .body-index, .main, .lower, .content, .logotipo, .call-action {
-        width: 100%;
-       }
-    }
+}
