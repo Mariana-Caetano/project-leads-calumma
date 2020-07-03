@@ -2,7 +2,7 @@
     font-size: 16px;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'SF Pro Display', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 html,
@@ -164,32 +164,6 @@ button>span>i {
     width: 100%;
 }
 
-
-/* .info {
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 60px;
-    padding: 15px;
-}
-
-.img-info {
-    display: flex;
-    align-items: center;
-    height: 280px;
-    background: #fbfbfb;
-    box-shadow: 0px 4px 8px rgba(50, 50, 71, 0.06), 0px 4px 4px rgba(0, 0, 0, 0.08);
-}
-
-.txt-info {
-    max-width: 523px;
-    padding-left: 50px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    line-height: 22px;
-    color: #000000;
-} */
-
 .info {
     display: flex;
     align-items: center;
@@ -205,13 +179,11 @@ button>span>i {
     justify-content: center;
     width: 524px;
     height: 280px;
-    background: #fbfbfb;
-    box-shadow: 0px 4px 8px rgba(50, 50, 71, 0.06), 0px 4px 4px rgba(0, 0, 0, 0.08);
 }
 
 .txt-info {
     max-width: 524px;
-    font-family: SF Pro Text;
+    font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     line-height: 22px;
@@ -286,13 +258,46 @@ button>span>i {
     flex-direction: row;
 }
 
-@media (max-width: 600px) {
-    .body-index,
-    .main,
-    .lower,
-    .content,
-    .logotipo,
-    .call-action {
+@media(max-width:576px) {
+    #title,
+    .header-text {
+        font-size: 3rem;
+        margin-bottom: 12px;
+        line-height: 3rem;
+    }
+    #subtitle {
+        margin-bottom: 24px;
+        line-height: 2.25rem;
+    }
+    .content {
+        height: 85vh
+    }
+    .info {
+        flex-direction: column;
+        padding: 15px;
+    }
+    .img-info {
         width: 100%;
+        margin-bottom: 10px;
+    }
+    input {
+        width: 100%;
+    }
+    .last-form>form>input {
+        margin-right: 0;
+    }
+    .form2 {
+        display: flex;
+        padding: 15px;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+    }
+    .logotipo {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 }
