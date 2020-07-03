@@ -258,18 +258,6 @@ button>span>i {
     flex-direction: row;
 }
 
-
-/* @media (max-width: 600px) {
-    .body-index,
-    .main,
-    .lower,
-    .content,
-    .logotipo,
-    .call-action {
-        width: 100%;
-    }
-} */
-
 @media(max-width:576px) {
     #title,
     .header-text {
