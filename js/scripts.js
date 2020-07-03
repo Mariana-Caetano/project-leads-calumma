@@ -24,6 +24,3 @@ function down() {
     'https://connect.facebook.net/en_US/fbevents.js');
 fbq('init', '350822875920515');
 fbq('track', 'PageView');
-
-//teste
-document.addEventListener('touchstart', onTouchStart, { passive: true });
