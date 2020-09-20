@@ -16,7 +16,7 @@ body {
 
 .body-index {
     background: url(../assets/img/bg.jpg) no-repeat center fixed;
-    background-size: 100% 75%;
+    background-size: cover;
 }
 
 .body-down {
