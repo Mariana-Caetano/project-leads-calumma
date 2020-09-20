@@ -21,7 +21,7 @@ body {
 
 .body-down {
     background: #FF9330;
-    background-size: cover;
+    background-size: 100% 75%;
 }
 
 .main,
